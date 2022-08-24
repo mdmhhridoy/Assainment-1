@@ -1,0 +1,42 @@
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.header{
+    color: aquamarine;
+    height: 500px;
+    width: 100%;
+    background-image:url(images/Afgan\ Child.jpg);
+    background-repeat: no-repeat;
+    
+}
+.donate-reason{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+#donation{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.donate-plan{
+    display: flex;
+    
+}
+.ammount{
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 120px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    border: 1px solid tomato;
+    background-color: salmon;
+    
+    
+    
+
+}
