@@ -137,9 +137,9 @@ hr{
 }
 .link-button{
     text-decoration: none;
-    color: bisque;
+    color: rgb(245, 242, 239);
     font-weight: 700;
-    background-image: linear-gradient(red, salmon); ;
+    background-image: linear-gradient(rgb(235, 117, 117), rgb(221, 70, 53)); ;
     padding:10px 40px;
     border-radius: 5px;
 }
