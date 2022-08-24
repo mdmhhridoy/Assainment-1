@@ -1,15 +1,35 @@
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 h1{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
+    font-size: 50px;
 }
 .header{
-    color: aquamarine;
-    height: 500px;
+    color: rgb(220, 223, 235);
+    height: 700px;
     width: 100%;
-    background-image:url(images/Afgan\ Child.jpg);
+    margin-bottom: 50px;
+    background-image:url(images/Afgan-Child.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
+}
+
+.headerTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner-paragraf{
+    text-align: center;
+    padding: 30px;
 }
 .donate-reason{
     text-align: center;
@@ -63,4 +83,120 @@ hr{
     background-image: linear-gradient(tomato, salmon); ;
     padding:10px 40px;
     border-radius: 5px;
+}
+.donate-plan{
+    display: flex;
+    margin: 50px 100px;
+}
+.icons{
+    width: 50px;
+    height: 50px;
+}
+.food{
+    background-color: rgb(215, 233, 200);
+    padding: 30px;
+    margin: 5px;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+.medicine{
+    background-color:rgb(175, 241, 219);
+    padding: 30px;
+    margin: 5px;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+.education{
+    background-color: rgb(219, 205, 170);
+    padding: 30px;
+    margin: 5px;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+.color-orange{
+    color: orange;
+}
+.flaxiable-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+.half-weight{
+    width: 50%;
+    padding-left: 5%;
+    
+}
+.writing{
+    padding-top: 50px;
+}
+.half-weight img{
+    width: 100%;
+}
+.button{
+    margin-top: 50px;
+}
+.link-button{
+    text-decoration: none;
+    color: bisque;
+    font-weight: 700;
+    background-image: linear-gradient(red, salmon); ;
+    padding:10px 40px;
+    border-radius: 5px;
+}
+.top-banner{
+    background-image: url(images//top-banner.png);
+    background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-bottom: 30px;
+    
+}
+.paragraf{
+    padding-right: 60px;
+}
+.update-text{
+    text-align: center;
+    margin: 50px;
+}
+
+.formSection {
+    width: 50%;
+    height: 250px;
+    margin: 50px auto;
+    background: rgb(248, 217, 160);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form {
+    display: flex;
+}
+.formBtn{
+    text-decoration: none;
+    color:white;
+    font-weight: 700;
+    background-image: linear-gradient(tomato, salmon); ;
+    padding:10px 40px;
+    border-radius: 5px;
+    
+}
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+.footer-writing{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(241, 98, 72);
+    padding-top: 50px;
+}
+.footer-writing p{
+     color: aliceblue;
+     padding-top: 5px;
 }
